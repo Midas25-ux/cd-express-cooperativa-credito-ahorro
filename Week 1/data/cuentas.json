@@ -1,0 +1,14 @@
+[
+  { "id": "c001", "titular": "Laura Gómez",    "tipo": "ahorro",  "saldo": 1250000, "cupoDisponible": 500000,  "activa": true },
+  { "id": "c002", "titular": "Carlos Rincón",  "tipo": "credito", "saldo": 3200000, "cupoDisponible": 800000,  "activa": true },
+  { "id": "c003", "titular": "María Torres",   "tipo": "aportes", "saldo": 450000,  "cupoDisponible": 0,       "activa": true },
+  { "id": "c004", "titular": "Andrés Pardo",   "tipo": "credito", "saldo": 5800000, "cupoDisponible": 1200000, "activa": true },
+  { "id": "c005", "titular": "Sofía Ramírez",  "tipo": "ahorro",  "saldo": 980000,  "cupoDisponible": 320000,  "activa": true },
+  { "id": "c006", "titular": "Julián Herrera", "tipo": "cdt",     "saldo": 4000000, "cupoDisponible": 0,       "activa": true },
+  { "id": "c007", "titular": "Paula Castaño",  "tipo": "ahorro",  "saldo": 210000,  "cupoDisponible": 90000,   "activa": false },
+  { "id": "c008", "titular": "Diego Salazar",  "tipo": "credito", "saldo": 2750000, "cupoDisponible": 650000,  "activa": true },
+  { "id": "c009", "titular": "Camila Reyes",   "tipo": "aportes", "saldo": 780000,  "cupoDisponible": 0,       "activa": true },
+  { "id": "c010", "titular": "Esteban Vargas", "tipo": "cdt",     "saldo": 6500000, "cupoDisponible": 0,       "activa": true },
+  { "id": "c011", "titular": "Natalia Cortés", "tipo": "ahorro",  "saldo": 1600000, "cupoDisponible": 450000,  "activa": true },
+  { "id": "c012", "titular": "Felipe Ospina",  "tipo": "credito", "saldo": 990000,  "cupoDisponible": 0,       "activa": false }
+]

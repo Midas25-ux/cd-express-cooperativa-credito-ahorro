@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-08-28T17:55:59.366Z",
+  "appliedFilter": "aportes",
+  "summary": {
+    "total": 2,
+    "active": 2,
+    "inactive": 0,
+    "averagePrice": 615000,
+    "mostExpensive": {
+      "id": "c009",
+      "titular": "Camila Reyes",
+      "tipo": "aportes",
+      "saldo": 780000,
+      "cupoDisponible": 0,
+      "activa": true
+    },
+    "cheapest": {
+      "id": "c003",
+      "titular": "María Torres",
+      "tipo": "aportes",
+      "saldo": 450000,
+      "cupoDisponible": 0,
+      "activa": true
+    },
+    "categories": [
+      "aportes"
+    ]
+  },
+  "items": [
+    {
+      "id": "c003",
+      "titular": "María Torres",
+      "tipo": "aportes",
+      "saldo": 450000,
+      "cupoDisponible": 0,
+      "activa": true
+    },
+    {
+      "id": "c009",
+      "titular": "Camila Reyes",
+      "tipo": "aportes",
+      "saldo": 780000,
+      "cupoDisponible": 0,
+      "activa": true
+    }
+  ]
+}
