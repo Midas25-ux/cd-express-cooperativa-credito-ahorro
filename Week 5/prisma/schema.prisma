@@ -1,0 +1,41 @@
+// Prisma Schema — Proyecto Semana 05
+// Dominio: Cooperativa de Crédito y Ahorro
+// Recurso principal: Cuenta | Recurso secundario: Cliente (1:N)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum TipoCuenta {
+  AHORRO
+  CORRIENTE
+}
+
+model Cliente {
+  id        String   @id @default(uuid()) @db.Uuid
+  nombre    String
+  documento String   @unique
+  email     String   @unique
+  telefono  String?
+  cuentas   Cuenta[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Cuenta {
+  id             String     @id @default(uuid()) @db.Uuid
+  numeroCuenta   String     @unique
+  tipo           TipoCuenta
+  saldo          Float      @default(0)
+  cupoDisponible Float      @default(0)
+  activa         Boolean    @default(true)
+  cliente        Cliente    @relation(fields: [clienteId], references: [id])
+  clienteId      String     @db.Uuid
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+}
