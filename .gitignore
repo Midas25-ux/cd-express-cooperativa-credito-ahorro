@@ -1,3 +1,14 @@
+# Dependencies
 node_modules/
+
+# Build and test output
 dist/
-.env/
+coverage/
+
+# Local environment files (all weeks and future projects)
+.env
+.env.*
+!.env.example
+
+# Local logs
+*.log
